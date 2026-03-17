@@ -1,8 +1,6 @@
-<div align="right">
-  [![Monash University](https://upload.wikimedia.org/wikipedia/en/8/87/Monash_University_logo.svg)](https://www.monash.edu.my/)
-</div>
-
-# Hi 👋, I'm Natsuki
+<a href="https://www.monash.edu.my/" target="_blank">
+  <img align="right" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Monash_University_logo.svg/200px-Monash_University_logo.svg.png" alt="Monash University" />
+</a>
 
 # Hi 👋, I'm Natsuki
 
