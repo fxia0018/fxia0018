@@ -32,9 +32,6 @@
 </p>
 
 ---
-
-<br>
-
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <picture>
@@ -43,7 +40,9 @@
       <img alt="trophy" src="https://github-profile-trophy.vercel.app/?username=fxia0018&theme=flat&border_radius=10" height="150">
     </picture>
   </a>
+</p>
 
+<p align="left">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=fxia0018&show_icons=true&theme=dark&hide_border=false&border_radius=10">
@@ -51,9 +50,6 @@
       <img alt="Stats Card" src="https://github-readme-stats.vercel.app/api?username=fxia0018&show_icons=true&theme=default&hide_border=false&border_radius=10" height="150">
     </picture>
   </a>
-</p>
-
-<p align="left">
   <a href="https://github.com/konpa/dev-metrics">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fxia0018&theme=dark&hide_border=false&border_radius=10">
@@ -61,7 +57,9 @@
       <img alt="Streak Stats" src="https://github-readme-streak-stats.herokuapp.com/?user=fxia0018&theme=default&hide_border=false&border_radius=10" height="150">
     </picture>
   </a>
+</p>
 
+<p align="left">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=fxia0018&layout=compact&theme=dark&hide_border=false&border_radius=10">
@@ -70,8 +68,6 @@
     </picture>
   </a>
 </p>
-
-<br>
 
 <h2 align="left"><strong> Connect with me:</strong></h2>
 <p align="left">
