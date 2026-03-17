@@ -1,5 +1,9 @@
 <a href="https://www.monash.edu.my/" target="_blank">
-  <img align="right" src="monash.png" width="150" alt="Monash University" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="monash-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="monash-light.png">
+    <img align="right" src="monash-light.png" width="150" alt="Monash University" />
+  </picture>
 </a>
 
 # Hi 👋, I'm Natsuki
