@@ -11,6 +11,7 @@
 ### Computer Science Student @ Monash University | Passionate Developer
 
 <p align="left">
+  <strong>Profile Views</strong><br>
   <img src="https://count.getloli.com/get/@fxia0018.github.readme?theme=moebooru" alt="Profile Views" />
 </p>
 
