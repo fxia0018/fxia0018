@@ -1,92 +1,29 @@
-{
-  "version": "1.0.0",
-  "exportedAt": "2026-03-17T05:50:44.467Z",
-  "profile": {
-    "title": "natsuki",
-    "subtitle": "Computer Science Student @ Monash University",
-    "currentWork": "Personal AI Study System (CLI + RAG)",
-    "currentLearn": "C#/Python AI development, prompt engineering, and AI-assisted learning systems.",
-    "collaborateOn": "",
-    "helpWith": "",
-    "ama": "",
-    "contact": "",
-    "funFact": "I argue with my AI assistant… and lose 😅",
-    "visitorsBadge": true,
-    "badgeStyle": "flat",
-    "badgeColor": "0e75b6",
-    "badgeLabel": "Profile views",
-    "githubProfileTrophy": false,
-    "githubStats": true,
-    "githubStatsOptions": {
-      "theme": "",
-      "titleColor": "",
-      "textColor": "",
-      "bgColor": "",
-      "hideBorder": false,
-      "cacheSeconds": null,
-      "locale": "en"
-    },
-    "topLanguages": true,
-    "topLanguagesOptions": {
-      "theme": "",
-      "titleColor": "",
-      "textColor": "",
-      "bgColor": "",
-      "hideBorder": false,
-      "cacheSeconds": null,
-      "locale": "en"
-    },
-    "streakStats": true,
-    "streakStatsOptions": {
-      "theme": ""
-    },
-    "devDynamicBlogs": false,
-    "mediumDynamicBlogs": false,
-    "rssDynamicBlogs": false
-  },
-  "links": {
-    "currentWork": "",
-    "collaborateOn": "",
-    "helpWith": "",
-    "portfolio": "",
-    "blog": "",
-    "resume": ""
-  },
-  "social": {
-    "github": "natsuki",
-    "dev": "",
-    "linkedin": "",
-    "codepen": "",
-    "stackoverflow": "",
-    "kaggle": "",
-    "codesandbox": "",
-    "fb": "",
-    "instagram": "jace_xiaf",
-    "twitter": "LexLacrimor",
-    "dribbble": "",
-    "behance": "",
-    "medium": "",
-    "youtube": "https://www.youtube.com/@jaceXia",
-    "codechef": "",
-    "hackerrank": "",
-    "codeforces": "",
-    "leetcode": "",
-    "topcoder": "",
-    "hackerearth": "",
-    "geeks_for_geeks": "",
-    "discord": "",
-    "rssurl": "",
-    "twitterBadge": false
-  },
-  "support": {
-    "buyMeACoffee": ""
-  },
-  "skills": [
-    "blender",
-    "cplusplus",
-    "csharp",
-    "hadoop",
-    "jupyter",
-    "python"
-  ]
-}
+# Hi 👋, I'm natsuki
+
+### Computer Science Student @ Monash University
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=natsuki&label=Profile views&color=0e75b6&style=flat" alt="natsuki" /> </p>
+
+- 🔭 I'm currently working on **Personal AI Study System (CLI + RAG)**
+
+- 🌱 I'm currently learning **C#/Python AI development, prompt engineering, and AI-assisted learning systems.**
+
+- ⚡ Fun fact **I argue with my AI assistant… and lose 😅**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://github.com/natsuki" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="natsuki" height="30" width="40" /></a>
+<a href="https://instagram.com/jace_xiaf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jace_xiaf" height="30" width="40" /></a>
+<a href="https://twitter.com/LexLacrimor" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="LexLacrimor" height="30" width="40" /></a>
+<a href="https://youtube.com/https://www.youtube.com/@jaceXia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@jaceXia" height="30" width="40" /></a>
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/blender" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=blender" alt="blender" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/cplusplus" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cpp" alt="cplusplus" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/csharp" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cs" alt="csharp" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/hadoop" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/jupyter" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a></p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=natsuki&show_icons=true&locale=en&layout=compact" alt="natsuki" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=natsuki&show_icons=true&locale=en" alt="natsuki" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=natsuki&" alt="natsuki" /></p>
+
