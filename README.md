@@ -1,5 +1,5 @@
 <a href="https://www.monash.edu.my/" target="_blank">
-  <img align="right" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Monash_University_logo.svg/512px-Monash_University_logo.svg.png" height="70" alt="Monash University" />
+  <img align="right" src="https://upload.wikimedia.org/wikipedia/en/8/87/Monash_University_logo.svg" height="70" alt="Monash University" />
 </a>
 
 # Hi 👋, I'm Natsuki
@@ -65,7 +65,7 @@
 
 <br>
 
-<h3 align="left">🤝 Connect with me</h3>
+<h3 align="left"> Connect with me</h3>
 <p align="left">
   <a href="https://github.com/fxia0018" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="fxia0018" height="30" width="40" /></a>
   <a href="https://instagram.com/jace_xiaf" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jace_xiaf" height="30" width="40" /></a>
