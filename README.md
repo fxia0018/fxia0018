@@ -31,13 +31,6 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a>
 </p>
 
-
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=fxia0018&theme=tokyonight&no-frame=false&margin-w=15&border_radius=10" alt="trophy" />
-  </a>
-</p>
-
 <p align="left">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <picture>
