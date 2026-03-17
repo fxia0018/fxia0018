@@ -11,7 +11,7 @@
 ### Computer Science Student @ Monash University | Passionate Developer
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=fxia0018&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://count.getloli.com/get/@fxia0018.github.readme?theme=moebooru" alt="Profile Views" />
 </p>
 
 - 🔭 I'm currently working on **Personal AI Study System (CLI + RAG)** & **Sentinel**
