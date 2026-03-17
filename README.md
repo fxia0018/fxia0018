@@ -2,7 +2,9 @@
 
 ### A passionate developer from around the world
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=fxia0018&label=Profile views&color=0e75b6&style=flat" alt="fxia0018" /> </p>
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=fxia0018&label=Profile+Views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
 
 - 🔭 I'm currently working on **Personal AI Study System (CLI + RAG)**
 
