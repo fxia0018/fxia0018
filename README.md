@@ -2,11 +2,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="monash-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="monash-light.png">
-    <img align="right" src="monash-light.png" width="150" alt="Monash University" />
+    <img align="right" src="monash-light.png" width="200" alt="Monash University" />
   </picture>
 </a>
 
-# Hi 👋, I'm Natsuki
+<h3><strong>Hi 👋, I'm Natsuki</strong></h3>
 
 ### Computer Science Student @ Monash University | Passionate Developer
 
@@ -30,11 +30,14 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a>
 </p>
 
-
+---
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=fxia0018&theme=tokyonight&no-frame=false&margin-w=15&border_radius=10" alt="trophy" #gh-dark-mode-only />
-    <img src="https://github-profile-trophy.vercel.app/?username=fxia0018&theme=flat&no-frame=false&margin-w=15&border_radius=10" alt="trophy" #gh-light-mode-only />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=fxia0018&theme=tokyonight&no-frame=false&margin-w=15&border_radius=10">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=fxia0018&theme=flat&no-frame=false&margin-w=15&border_radius=10">
+      <img alt="trophy" src="https://github-profile-trophy.vercel.app/?username=fxia0018&theme=flat&border_radius=10" height="150">
+    </picture>
   </a>
 </p>
 
