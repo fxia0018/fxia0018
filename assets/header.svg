@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260">
+  <defs>
+    <style>
+      .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 15px; }
+      .s { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 11px; fill: #6e7681; }
+      .fg { fill: #e6edf3; }
+      .mut { fill: #8b949e; }
+      .grn { fill: #7ee787; }
+      .blu { fill: #79c0ff; }
+      .org { fill: #ffa657; }
+      .pur { fill: #d2a8ff; }
+    </style>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6e7681"/>
+    </marker>
+    <clipPath id="c1">
+      <rect x="66" y="58" height="24" width="0">
+        <animate attributeName="width" begin="0.4s" dur="0.6s" fill="freeze" calcMode="discrete"
+                 values="0;10;19;28;37;46;60"/>
+      </rect>
+    </clipPath>
+    <clipPath id="c2">
+      <rect x="66" y="120" height="24" width="0">
+        <animate attributeName="width" begin="1.7s" dur="0.8s" fill="freeze" calcMode="discrete"
+                 values="0;10;19;28;37;46;55;64;73;82;100"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="10" y="10" width="840" height="240" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M10 44 V20 a10 10 0 0 1 10 -10 H840 a10 10 0 0 1 10 10 V44 z" fill="#161b22"/>
+  <line x1="10" y1="44" x2="850" y2="44" stroke="#30363d"/>
+  <circle cx="32" cy="27" r="6" fill="#ff5f56"/>
+  <circle cx="52" cy="27" r="6" fill="#ffbd2e"/>
+  <circle cx="72" cy="27" r="6" fill="#27c93f"/>
+  <text x="430" y="31" text-anchor="middle" class="s">natsuki@monash: ~</text>
+
+  <!-- $ whoami -->
+  <text x="34" y="76" class="m"><tspan class="blu">~</tspan> <tspan class="grn">❯</tspan></text>
+  <text x="66" y="76" class="m fg" clip-path="url(#c1)">whoami</text>
+
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="1.2s" fill="freeze"/>
+    <text x="34" y="102" class="m"><tspan class="fg" font-weight="bold">Natsuki</tspan><tspan class="mut" xml:space="preserve"> · CS (Data Science) @ Monash Malaysia · 2028</tspan></text>
+  </g>
+
+  <!-- $ cat now.md -->
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="1.5s" fill="freeze"/>
+    <text x="34" y="138" class="m"><tspan class="blu">~</tspan> <tspan class="grn">❯</tspan></text>
+  </g>
+  <text x="66" y="138" class="m fg" clip-path="url(#c2)">cat now.md</text>
+
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="2.8s" fill="freeze"/>
+    <text x="34" y="164" class="m org">building</text>
+    <text x="124" y="164" class="m fg">AI study system (CLI + RAG) · Sentinel</text>
+  </g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="3.0s" fill="freeze"/>
+    <text x="34" y="190" class="m org">learning</text>
+    <text x="124" y="190" class="m fg">automata · FRP · stats · clustering</text>
+  </g>
+
+  <!-- idle prompt -->
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="3.3s" fill="freeze"/>
+    <text x="34" y="226" class="m"><tspan class="blu">~</tspan> <tspan class="grn">❯</tspan></text>
+    <rect x="66" y="213" width="9" height="17" fill="#e6edf3">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- DFA: binary strings whose value is a multiple of 3 -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.6s" fill="freeze"/>
+    <line x1="606" y1="145" x2="632" y2="145" stroke="#6e7681" stroke-width="1.4" marker-end="url(#arr)"/>
+
+    <path d="M641 131 C628 98, 672 98, 659 131" fill="none" stroke="#6e7681" stroke-width="1.4" marker-end="url(#arr)"/>
+    <path d="M791 131 C778 98, 822 98, 809 131" fill="none" stroke="#6e7681" stroke-width="1.4" marker-end="url(#arr)"/>
+
+    <path d="M663 135 Q687.5 110 711 135" fill="none" stroke="#6e7681" stroke-width="1.4" marker-end="url(#arr)"/>
+    <path d="M712 155 Q687.5 180 664 155" fill="none" stroke="#6e7681" stroke-width="1.4" marker-end="url(#arr)"/>
+    <path d="M738 135 Q762.5 110 786 135" fill="none" stroke="#6e7681" stroke-width="1.4" marker-end="url(#arr)"/>
+    <path d="M787 155 Q762.5 180 739 155" fill="none" stroke="#6e7681" stroke-width="1.4" marker-end="url(#arr)"/>
+
+    <text x="650" y="96" text-anchor="middle" class="s">0</text>
+    <text x="800" y="96" text-anchor="middle" class="s">1</text>
+    <text x="687.5" y="115" text-anchor="middle" class="s">1</text>
+    <text x="687.5" y="185" text-anchor="middle" class="s">1</text>
+    <text x="762.5" y="115" text-anchor="middle" class="s">0</text>
+    <text x="762.5" y="185" text-anchor="middle" class="s">0</text>
+
+    <circle cx="650" cy="145" r="16" fill="#0d1117" stroke="#8b949e" stroke-width="1.4"/>
+    <circle cx="650" cy="145" r="12" fill="none" stroke="#8b949e" stroke-width="1.2"/>
+    <circle cx="725" cy="145" r="16" fill="#0d1117" stroke="#8b949e" stroke-width="1.4"/>
+    <circle cx="800" cy="145" r="16" fill="#0d1117" stroke="#8b949e" stroke-width="1.4"/>
+
+    <!-- current state, reading the input 1001 (= 9) -->
+    <circle cx="650" cy="145" r="16" fill="#7ee787" fill-opacity="0.15" stroke="#7ee787" stroke-width="1.6">
+      <animate attributeName="cx" values="650;725;800;725;650;650" keyTimes="0;0.18;0.36;0.54;0.72;1"
+               calcMode="discrete" dur="5s" begin="3.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="650" y="149" text-anchor="middle" class="s" style="fill:#c9d1d9">q0</text>
+    <text x="725" y="149" text-anchor="middle" class="s" style="fill:#c9d1d9">q1</text>
+    <text x="800" y="149" text-anchor="middle" class="s" style="fill:#c9d1d9">q2</text>
+
+    <text x="725" y="216" text-anchor="middle" class="s">accepts binary multiples of 3</text>
+  </g>
+</svg>
