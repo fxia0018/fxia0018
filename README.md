@@ -1,66 +1,87 @@
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="natsuki@monash ~ whoami" />
+</p>
+
 <a href="https://www.monash.edu.my/" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="monash-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="monash-light.png">
-    <img align="right" src="monash-light.png" width="150" alt="Monash University" />
+    <img align="right" src="monash-light.png" width="130" alt="Monash University" />
   </picture>
 </a>
 
-# Hi 👋, I'm Natsuki
+### Hey, I'm Natsuki.
 
-### Computer Science Student @ Monash University | Passionate Developer
+Computer Science (Data Science) at **Monash University Malaysia**, class of 2028.
 
-<p align="left">
-  <strong>Profile Views</strong><br>
-  <img src="https://count.getloli.com/get/@fxia0018.github.readme?theme=moebooru" alt="Profile Views" />
-</p>
+I like building tools that sit between data and the person using it: retrieval pipelines, small CLIs,
+anything that turns a messy pile of information into something I can actually query.
+This semester was mostly automata theory, functional reactive programming and statistics,
+so expect a lot of state machines and streams in my code.
 
-- 🔭 I'm currently working on **Personal AI Study System (CLI + RAG)** & **Sentinel**
-- 🌱 I'm currently learning **C#/Python AI development, prompt engineering, and AI-assisted learning systems.**
-- ⚡ Fun fact **Data shows that 100% of people who drink water eventually die.**
+<br clear="right"/>
+
+## Projects
+
+| | Project | What it does | Stack | Status |
+|:-:|:--|:--|:--|:-:|
+| `01` | **Personal AI Study System** | A command-line study assistant. It indexes my course notes, retrieves the relevant pieces (RAG) and answers questions or quizzes me from them, so revision is grounded in what the unit actually taught. | Python · C# · LLM APIs · embeddings | building |
+| `02` | **Sentinel** | Work in progress. Details once it's ready to show. | — | building |
+| `03` | [**MusicPlayer_CSharp**](https://github.com/fxia0018/MusicPlayer_CSharp) | CLI music player with real-time playback control and audio event handling. | C# · SplashKit | shipped |
+
+## Sem 2 · 2026 coursework
+
+| Area | What I worked on | Unit |
+|:--|:--|:-:|
+| Theory of computation | regex & awk, NFA → DFA, DFA minimisation, pumping lemma, proofs by induction | `FIT2014` |
+| Programming paradigms | functional reactive programming in TypeScript + RxJS; built a browser game, *Flippy Bit* | `FIT2102` |
+| Statistical modelling | MLE, confidence intervals, AIC / BIC model selection, regression & classification in R | `FIT2086` |
+| Unsupervised learning | clustering on real-world data (Stack Overflow survey, university rankings) | `ETW2500` |
+| Data analysis | tidyverse / dplyr wrangling, rule-based risk analysis | `ETW2001` |
+| Engineering maths | matrices, eigenvalues & eigenvectors, least squares | `ENG1005` |
+
+## Toolbox
+
+<table>
+  <tr>
+    <td><sub><b>languages</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=py,r,ts,cs,cpp,haskell,bash&theme=dark" height="40" alt="Python, R, TypeScript, C#, C++, Haskell, Bash" /></td>
+  </tr>
+  <tr>
+    <td><sub><b>data & ai</b></sub></td>
+    <td>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="40" alt="Jupyter" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" height="40" alt="Hadoop" />
+      <img src="https://skillicons.dev/icons?i=reactivex,regex&theme=dark" height="40" alt="RxJS, Regex" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub><b>daily drivers</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=linux,git,vscode,obsidian,latex,blender&theme=dark" height="40" alt="Linux, Git, VS Code, Obsidian, LaTeX, Blender" /></td>
+  </tr>
+</table>
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=fxia0018&theme=github-dark-blue&hide_border=true&border_radius=8">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=fxia0018&theme=default&hide_border=true&border_radius=8">
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fxia0018/fxia0018/output/github-snake-dark.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/fxia0018/fxia0018/output/github-snake.svg">
+</picture>
 
 ---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/blender" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=blender" alt="blender" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/cplusplus" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cpp" alt="cplusplus" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/csharp" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cs" alt="csharp" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/hadoop" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="hadoop" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/jupyter" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a>
+<p>
+  <a href="https://www.linkedin.com/in/fengsheng-xia-2a30403b8"><img src="https://img.shields.io/badge/linkedin-Fengsheng%20Xia-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://instagram.com/jace_xiaf"><img src="https://img.shields.io/badge/instagram-jace__xiaf-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.youtube.com/@jaceXia"><img src="https://img.shields.io/badge/youtube-@jaceXia-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a>
+  <img align="right" src="https://count.getloli.com/get/@fxia0018.github.readme?theme=moebooru" height="40" alt="profile views" />
 </p>
 
-<p align="left">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=fxia0018&show_icons=true&theme=dark&hide_border=false&border_radius=10">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=fxia0018&show_icons=true&theme=default&hide_border=false&border_radius=10">
-      <img alt="Stats Card" src="https://github-readme-stats.vercel.app/api?username=fxia0018&show_icons=true&theme=default&hide_border=false&border_radius=10" height="150">
-    </picture>
-  </a>
-  <a href="https://github.com/konpa/dev-metrics">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fxia0018&theme=dark&hide_border=false&border_radius=10">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=fxia0018&theme=default&hide_border=false&border_radius=10">
-      <img alt="Streak Stats" src="https://github-readme-streak-stats.herokuapp.com/?user=fxia0018&theme=default&hide_border=false&border_radius=10" height="150">
-    </picture>
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=fxia0018&layout=compact&theme=dark&hide_border=false&border_radius=10">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=fxia0018&layout=compact&theme=default&hide_border=false&border_radius=10">
-      <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fxia0018&layout=compact&theme=default&hide_border=false&border_radius=10" height="150">
-    </picture>
-  </a>
-</p>
-
-<h2 align="left"><strong> Connect with me:</strong></h2>
-<p align="left">
-<a href="https://github.com/fxia0018" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="fxia0018" height="30" width="40" /></a>
-<a href="https://instagram.com/jace_xiaf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jace_xiaf" height="30" width="40" /></a>
-<a href="https://youtube.com/https://www.youtube.com/@jaceXia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@jaceXia" height="30" width="40" /></a>
-</p>
+<sub>Fun fact: 100% of people who drink water eventually die. As a data science student I'm obliged to point out that correlation is not causation.</sub>
