@@ -75,7 +75,7 @@
 <circle cx="205" cy="259" r="3" fill="#218bff"/>
 <text x="205" y="439" font-size="12" fill="#8c959f" text-anchor="middle">SONAR · 6 upstream targets locked</text>
 <text x="430" y="48" font-size="17" font-weight="700"><tspan fill="#0969da">natsuki</tspan><tspan fill="#24292f">@</tspan><tspan fill="#0969da">sonar</tspan></text>
-<text x="570.0" y="48" fill="#8c959f">~ Fengsheng Xia · 夏丰盛</text>
+<text x="570.0" y="48" fill="#8c959f">~ Natsuki</text>
 <line x1="430" y1="63" x2="955" y2="63" stroke="#d0d7de"/>
 <text x="430" y="92"><tspan fill="#bc4c00">OS</tspan><tspan fill="#24292f">:</tspan></text>
 <text x="466.1" y="92" fill="#8c959f">.........</text>
@@ -120,9 +120,9 @@
 <text x="430" y="445.1"><tspan fill="#bc4c00">Email</tspan><tspan fill="#24292f">:</tspan></text>
 <text x="493.2" y="445.1" fill="#8c959f">......</text>
 <text x="556.4" y="445.1" fill="#24292f">fxia0018@student.monash.edu</text>
-<text x="430" y="467.1"><tspan fill="#bc4c00">LinkedIn</tspan><tspan fill="#24292f">:</tspan></text>
+<text x="430" y="467.1"><tspan fill="#bc4c00">GitHub</tspan><tspan fill="#24292f">:</tspan></text>
 <text x="520.3" y="467.1" fill="#8c959f">...</text>
-<text x="556.4" y="467.1" fill="#24292f">in/fengsheng-xia-2a30403b8</text>
+<text x="556.4" y="467.1" fill="#24292f">github.com/fxia0018</text>
 <text x="430" y="500.1" fill="#1a7f37">❯</text>
 <text x="448.1" y="500.1" fill="#24292f">python agent.py &quot;find me a good deal&quot;</text>
 <rect x="791.2" y="487.1" width="9" height="17" fill="#24292f"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
