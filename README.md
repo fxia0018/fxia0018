@@ -3,17 +3,6 @@
   <img src="./assets/card-light.svg" width="100%" alt="natsuki — CS @ Monash '28, agents, MCP, RAG. 68 PRs opened, 15 merged upstream." />
 </picture>
 
-## Sonar
-
-A price agent that watches 6 Japanese second-hand marketplaces around the clock and
-pings my phone when the exact item I want shows up at a good price. 470k+ price events so far.
-
-- **Tool use:** *"watch the PS4 edition, under ¥5,000"* → finds the item, reads the market, proposes a cap, adds the watch
-- **Human-in-the-loop:** anything that writes waits for my yes
-- **MCP server:** Claude Code can drive it directly
-
-`Python` `FastAPI` `SQLite` `MCP` `Playwright` · private for now, demo on request
-
 ## Merged upstream
 
 Bugs I found, reproduced and fixed in other people's agent / RAG infrastructure.
