@@ -1,4 +1,4 @@
-"""Refresh the upstream PR numbers and the recently-merged list in the profile.
+"""Refresh the upstream PR numbers in the profile card.
 
 Run by .github/workflows/update-stats.yml. Uses only the standard library and
 the GitHub search API (GITHUB_TOKEN is optional but avoids rate limits).
@@ -18,7 +18,6 @@ USER = "fxia0018"
 # course project.
 EXCLUDE_OWNERS = {USER}
 EXCLUDE_REPOS = {"CaoLongyang/UM-Auto-Attendance"}
-RECENT_COUNT = 6
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -56,16 +55,12 @@ def upstream(items: list[dict]) -> list[dict]:
 def main() -> None:
     opened = upstream(search(f"is:pr author:{USER}"))
     merged = upstream(search(f"is:pr is:merged author:{USER}"))
-    merged.sort(key=lambda item: item["pull_request"]["merged_at"], reverse=True)
 
     for name in ("card-dark.svg", "card-light.svg"):
         path = ROOT / "assets" / name
         text = path.read_text(encoding="utf-8")
-        text = re.sub(
-            r"\d+ opened \| \d+ merged upstream",
-            f"{len(opened)} opened | {len(merged)} merged upstream",
-            text,
-        )
+        text = re.sub(r'(id="n-opened">)\d+<', rf"\g<1>{len(opened)}<", text)
+        text = re.sub(r'(id="n-merged">)\d+<', rf"\g<1>{len(merged)}<", text)
         path.write_text(text, encoding="utf-8")
 
     readme = ROOT / "README.md"
@@ -74,18 +69,6 @@ def main() -> None:
         r"\d+ PRs opened, \d+ merged upstream",
         f"{len(opened)} PRs opened, {len(merged)} merged upstream",
         text,
-    )
-    lines = []
-    for item in merged[:RECENT_COUNT]:
-        title = item["title"].replace("|", "\\|").replace("[", "\\[").replace("]", "\\]")
-        day = item["pull_request"]["merged_at"][:10]
-        lines.append(f"- `{day}` **{repo_of(item)}** · [{title}]({item['html_url']})")
-    block = "\n".join(lines)
-    text = re.sub(
-        r"<!-- RECENT_MERGED:START -->.*?<!-- RECENT_MERGED:END -->",
-        lambda m: f"<!-- RECENT_MERGED:START -->\n{block}\n<!-- RECENT_MERGED:END -->",
-        text,
-        flags=re.DOTALL,
     )
     readme.write_text(text, encoding="utf-8")
     print(f"opened={len(opened)} merged={len(merged)}")
