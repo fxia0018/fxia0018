@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg">
-  <img src="./assets/card-light.svg" width="100%" alt="natsuki@sonar — Fengsheng Xia: Computer Science @ Monash University '28. Agents, Tool Use, MCP, RAG. 65 PRs opened, 15 merged upstream." />
+  <img src="./assets/card-light.svg" width="100%" alt="natsuki@sonar — Fengsheng Xia: Computer Science @ Monash University '28. Agents, Tool Use, MCP, RAG. 67 PRs opened, 15 merged upstream." />
 </picture>
 
 ### Hi, I'm Fengsheng (Natsuki).
@@ -39,11 +39,27 @@ Bugs I found, reproduced and fixed in other people's agent / RAG infrastructure.
 | **[langgenius/dify](https://github.com/langgenius/dify)** | test cleanup | [#44837](https://github.com/langgenius/dify/pull/44837) |
 | **[OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)** | tests mutating global state (`time.Local`, gin mode) | [#2885](https://github.com/opensandbox-group/OpenSandbox/pull/2885) [#2842](https://github.com/opensandbox-group/OpenSandbox/pull/2842) |
 
+**Recently merged** <sub>(updated daily)</sub>
+
+<!-- RECENT_MERGED:START -->
+- `2026-11-19` **Tencent/AI-Infra-Guard** · [fix(agent-scan): keep severity of CVSS-score and Chinese finding levels](https://github.com/Tencent/AI-Infra-Guard/pull/777)
+- `2026-11-19` **Tencent/AI-Infra-Guard** · [fix(skill-scan): honor finish tool name casing](https://github.com/Tencent/AI-Infra-Guard/pull/776)
+- `2026-11-18` **agentscope-ai/agentscope** · [fix(rag): reject None metadata_filter values on stores that cannot match null](https://github.com/agentscope-ai/agentscope/pull/4058)
+- `2026-11-18` **agentscope-ai/ReMe** · [fix(logo): bracket IPv6 hosts in startup banner URLs](https://github.com/agentscope-ai/ReMe/pull/753)
+- `2026-11-18` **agentscope-ai/OpenJudge** · [fix(agent): build ActionLoop signatures from dict and nested arguments](https://github.com/agentscope-ai/OpenJudge/pull/245)
+- `2026-11-18` **agentscope-ai/OpenJudge** · [fix(graders): ignore empty entries in contains_all/contains_any substrings](https://github.com/agentscope-ai/OpenJudge/pull/244)
+<!-- RECENT_MERGED:END -->
+
 <sub>[all of them →](https://github.com/search?q=author%3Afxia0018+is%3Apr+is%3Amerged&type=pullrequests)</sub>
 
 ## Toolbox
 
 <img src="https://skillicons.dev/icons?i=py,go,ts,fastapi,sqlite,swift,linux,git,vscode&theme=dark" height="40" alt="Python, Go, TypeScript, FastAPI, SQLite, Swift, Linux, Git, VS Code" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fxia0018/fxia0018/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/fxia0018/fxia0018/output/github-snake.svg" width="100%" alt="Contribution graph eaten by a snake" />
+</picture>
 
 ---
 

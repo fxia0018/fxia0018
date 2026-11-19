@@ -102,7 +102,7 @@
 <line x1="542.9" y1="248.7" x2="955" y2="248.7" stroke="#d0d7de"/>
 <text x="430" y="275.7"><tspan fill="#bc4c00">PRs</tspan><tspan fill="#24292f">:</tspan></text>
 <text x="475.1" y="275.7" fill="#8c959f">........</text>
-<text x="556.4" y="275.7" fill="#24292f">65 opened | 15 merged upstream</text>
+<text x="556.4" y="275.7" fill="#24292f">67 opened | 15 merged upstream</text>
 <text x="430" y="297.7"><tspan fill="#bc4c00">Merged</tspan><tspan fill="#24292f">:</tspan></text>
 <text x="502.2" y="297.7" fill="#8c959f">.....</text>
 <text x="556.4" y="297.7" fill="#24292f">AgentScope · WeKnora · AI-Infra-Guard</text>
