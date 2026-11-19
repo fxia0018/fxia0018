@@ -1,87 +1,53 @@
-<p align="center">
-  <img src="./assets/header.svg" width="100%" alt="natsuki@monash ~ whoami" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg">
+  <img src="./assets/card-light.svg" width="100%" alt="natsuki@sonar — Fengsheng Xia: Computer Science @ Monash University '28. Agents, Tool Use, MCP, RAG. 65 PRs opened, 15 merged upstream." />
+</picture>
 
-<a href="https://www.monash.edu.my/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="monash-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="monash-light.png">
-    <img align="right" src="monash-light.png" width="130" alt="Monash University" />
-  </picture>
-</a>
+### Hi, I'm Fengsheng (Natsuki).
 
-### Hey, I'm Natsuki.
+I build agents that do the boring part of being online for you.
+CS undergrad at **Monash University** ('28). Most of my time goes into two things:
+an always-on price agent I actually depend on, and fixing bugs in the agent frameworks I learn from.
 
-Computer Science (Data Science) at **Monash University Malaysia**, class of 2028.
+## What I'm building
 
-I like building tools that sit between data and the person using it: retrieval pipelines, small CLIs,
-anything that turns a messy pile of information into something I can actually query.
-This semester was mostly automata theory, functional reactive programming and statistics,
-so expect a lot of state machines and streams in my code.
+**Sonar** · a cross-marketplace price agent for Japan's second-hand market
 
-<br clear="right"/>
+Watches **6 marketplaces** (Mercari, Suruga-ya, Yahoo! Auctions, PayPay Flea Market, Rakuma, BOOK OFF) around the clock,
+finds *the exact item* in hand-written, code-less listing titles, and pushes a good price to my phone within seconds.
+**470k+ price events** logged so far, running unattended on a server overseas.
 
-## Projects
+- **Tool-Use agent:** one sentence like *"watch the PS4 edition for me, under ¥5,000"* becomes a plan: resolve the title, locate it in the catalog, read the market, propose a price cap, ask me, add the watch.
+- **Human-in-the-loop by design:** anything that writes waits for a yes; a "no" goes back to the model so it can re-plan.
+- **MCP server:** the same tool table is exposed over MCP, so Claude Code can drive Sonar directly.
+- **Matching that earns its keep:** recall and precision are split into two keywords; keywords self-calibrate against real seller titles; a grey zone keeps near-misses visible instead of silently dropping them.
 
-| | Project | What it does | Stack | Status |
-|:-:|:--|:--|:--|:-:|
-| `01` | **Personal AI Study System** | A command-line study assistant. It indexes my course notes, retrieves the relevant pieces (RAG) and answers questions or quizzes me from them, so revision is grounded in what the unit actually taught. | Python · C# · LLM APIs · embeddings | building |
-| `02` | **Sentinel** | Work in progress. Details once it's ready to show. | — | building |
-| `03` | [**MusicPlayer_CSharp**](https://github.com/fxia0018/MusicPlayer_CSharp) | CLI music player with real-time playback control and audio event handling. | C# · SplashKit | shipped |
+`Python` `FastAPI` `SQLite` `DeepSeek function calling` `MCP` `Playwright` `pytest` · 400+ commits · 39 test modules · source private for now, demo on request
 
-## Sem 2 · 2026 coursework
+## Merged upstream
 
-| Area | What I worked on | Unit |
-|:--|:--|:-:|
-| Theory of computation | regex & awk, NFA → DFA, DFA minimisation, pumping lemma, proofs by induction | `FIT2014` |
-| Programming paradigms | functional reactive programming in TypeScript + RxJS; built a browser game, *Flippy Bit* | `FIT2102` |
-| Statistical modelling | MLE, confidence intervals, AIC / BIC model selection, regression & classification in R | `FIT2086` |
-| Unsupervised learning | clustering on real-world data (Stack Overflow survey, university rankings) | `ETW2500` |
-| Data analysis | tidyverse / dplyr wrangling, rule-based risk analysis | `ETW2001` |
-| Engineering maths | matrices, eigenvalues & eigenvectors, least squares | `ENG1005` |
+Bugs I found, reproduced and fixed in other people's agent / RAG infrastructure.
+
+| Project | What I fixed | PRs |
+|:--|:--|:--|
+| **[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)** | RAG metadata filters wrongly matching `None` on stores that can't match null | [#4058](https://github.com/agentscope-ai/agentscope/pull/4058) |
+| **[agentscope-ai/OpenJudge](https://github.com/agentscope-ai/OpenJudge)** | ActionLoop signatures for dict / nested arguments; graders tripping on empty substrings | [#245](https://github.com/agentscope-ai/OpenJudge/pull/245) [#244](https://github.com/agentscope-ai/OpenJudge/pull/244) |
+| **[agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe)** | IPv6 hosts in startup URLs | [#753](https://github.com/agentscope-ai/ReMe/pull/753) |
+| **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)** | unset MCP tool-selection mode exposing *all* tools; context leaking into saved knowledge; missing auth header on document parsing | [#5450](https://github.com/Tencent/WeKnora/pull/5450) [#5119](https://github.com/Tencent/WeKnora/pull/5119) [#5057](https://github.com/Tencent/WeKnora/pull/5057) |
+| **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** | agent-scan severity lost for CVSS scores and Chinese levels; skill-scan finish-tool casing; a data race in the logger; a racy test | [#777](https://github.com/Tencent/AI-Infra-Guard/pull/777) [#776](https://github.com/Tencent/AI-Infra-Guard/pull/776) [#765](https://github.com/Tencent/AI-Infra-Guard/pull/765) [#772](https://github.com/Tencent/AI-Infra-Guard/pull/772) |
+| **[pydantic/logfire](https://github.com/pydantic/logfire)** | generator messages consumed early under Anthropic instrumentation | [#2714](https://github.com/pydantic/logfire/pull/2714) |
+| **[langgenius/dify](https://github.com/langgenius/dify)** | test cleanup | [#44837](https://github.com/langgenius/dify/pull/44837) |
+| **[OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)** | tests mutating global state (`time.Local`, gin mode) | [#2885](https://github.com/opensandbox-group/OpenSandbox/pull/2885) [#2842](https://github.com/opensandbox-group/OpenSandbox/pull/2842) |
+
+<sub>[all of them →](https://github.com/search?q=author%3Afxia0018+is%3Apr+is%3Amerged&type=pullrequests)</sub>
 
 ## Toolbox
 
-<table>
-  <tr>
-    <td><sub><b>languages</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=py,r,ts,cs,cpp,haskell,bash&theme=dark" height="40" alt="Python, R, TypeScript, C#, C++, Haskell, Bash" /></td>
-  </tr>
-  <tr>
-    <td><sub><b>data & ai</b></sub></td>
-    <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="40" alt="Jupyter" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" height="40" alt="Hadoop" />
-      <img src="https://skillicons.dev/icons?i=reactivex,regex&theme=dark" height="40" alt="RxJS, Regex" />
-    </td>
-  </tr>
-  <tr>
-    <td><sub><b>daily drivers</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=linux,git,vscode,obsidian,latex,blender&theme=dark" height="40" alt="Linux, Git, VS Code, Obsidian, LaTeX, Blender" /></td>
-  </tr>
-</table>
-
-## Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=fxia0018&theme=github-dark-blue&hide_border=true&border_radius=8">
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=fxia0018&theme=default&hide_border=true&border_radius=8">
-</picture>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fxia0018/fxia0018/output/github-snake-dark.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/fxia0018/fxia0018/output/github-snake.svg">
-</picture>
+<img src="https://skillicons.dev/icons?i=py,go,ts,fastapi,sqlite,swift,linux,git,vscode&theme=dark" height="40" alt="Python, Go, TypeScript, FastAPI, SQLite, Swift, Linux, Git, VS Code" />
 
 ---
 
-<p>
-  <a href="https://www.linkedin.com/in/fengsheng-xia-2a30403b8"><img src="https://img.shields.io/badge/linkedin-Fengsheng%20Xia-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://instagram.com/jace_xiaf"><img src="https://img.shields.io/badge/instagram-jace__xiaf-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://www.youtube.com/@jaceXia"><img src="https://img.shields.io/badge/youtube-@jaceXia-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a>
-  <img align="right" src="https://count.getloli.com/get/@fxia0018.github.readme?theme=moebooru" height="40" alt="profile views" />
-</p>
+<a href="https://www.linkedin.com/in/fengsheng-xia-2a30403b8"><img src="https://img.shields.io/badge/LinkedIn-Fengsheng%20Xia-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:fxia0018@student.monash.edu"><img src="https://img.shields.io/badge/email-fxia0018%40student.monash.edu-24292f?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 
-<sub>Fun fact: 100% of people who drink water eventually die. As a data science student I'm obliged to point out that correlation is not causation.</sub>
+<sub>I wrote an agent so I'd stop refreshing Mercari. Now I refresh its logs instead.</sub>
