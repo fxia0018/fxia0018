@@ -52,6 +52,7 @@ BLIPS = [
 TAGLINES = [
     "CS @ Monash '28",
     "building agents that use tools",
+    "shipped furima-mcp to PyPI",
     "MCP · RAG · tool use",
     "fixing bugs in agent frameworks",
 ]
